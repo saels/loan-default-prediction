@@ -14,7 +14,7 @@ The notebook progresses from logistic regression to decision trees and XGBoost, 
 
 ## 🔍 Key Takeaways
 
-Under the payoff assumptions used in the notebook, the **pruned decision tree produces the highest displayed test profit at $462,000**, compared with **$438,000** for multivariable logistic regression and **$415,000** for XGBoost. The result is a useful reminder that the most complex model is not necessarily the best choice once business value and interpretability are considered together.
+Under the payoff assumptions used in the notebook, the **pruned decision tree produces the highest displayed test profit per applicant at $161.82**, compared with **$153.41** for multivariable logistic regression and **$145.35** for XGBoost. The result is a useful reminder that the most complex model is not necessarily the best choice once business value and interpretability are considered together.
 
 The experiment also shows why a default 0.50 cutoff may be inappropriate in credit risk. The cost of approving a future defaulter can be very different from the cost of declining a safe borrower, so threshold selection should be tied to expected value rather than convention alone.
 
